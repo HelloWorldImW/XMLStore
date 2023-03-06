@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T08:25:32.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="IjnmoZJnndMg3FIjqLrD" type="github"><diagram name="第 1 页" id="ILA9jFhQxwyDrRSThJuS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-06T08:33:28.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="O7FbdanvXj5okFO3iis3" version="21.0.2" type="github">
+  <diagram name="第 1 页" id="ILA9jFhQxwyDrRSThJuS">
+    <mxGraphModel dx="1434" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pnhvphAB3blLObKbYcYm-2" value="&lt;h1&gt;Odoo使用MVC架构设计&lt;/h1&gt;&lt;p&gt;Model负责提供数据, View负责界面展示, Controller负责逻辑控制&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pnhvphAB3blLObKbYcYm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnhvphAB3blLObKbYcYm-3" target="pnhvphAB3blLObKbYcYm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnhvphAB3blLObKbYcYm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnhvphAB3blLObKbYcYm-3" target="pnhvphAB3blLObKbYcYm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnhvphAB3blLObKbYcYm-3" value="Controller" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnhvphAB3blLObKbYcYm-4" value="Model" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnhvphAB3blLObKbYcYm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnhvphAB3blLObKbYcYm-5" target="pnhvphAB3blLObKbYcYm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnhvphAB3blLObKbYcYm-5" value="View" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
